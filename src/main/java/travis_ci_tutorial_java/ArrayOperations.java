@@ -9,6 +9,7 @@ public class ArrayOperations
    {
       // Effects: if x == null throw NullPointerException 
       // else return the number of occurrences of 0 in x
+//	    Testing
       int count = 0;
       for (int i=0; i<x.length; i++)
          if (x[i] == 0) 
